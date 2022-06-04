@@ -13,7 +13,6 @@ class MainClass
 		int deep = int.Parse(Console.ReadLine() ?? "0");
 
 		Echo(str, deep);
-
 	}
 
 	static void Echo(string saidword, int deep)
