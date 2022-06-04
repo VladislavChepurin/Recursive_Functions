@@ -17,6 +17,7 @@ class MainClass
 
 	static void Echo(string saidword, int deep)
 	{
+		Console.BackgroundColor = (ConsoleColor)deep;
 		Console.WriteLine(saidword);
 		if (saidword.Length > 2)
 		{
